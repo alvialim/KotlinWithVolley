@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="alimalvi.in.kotlinwithvolley.KotlinVolleyActivity"
+    >
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:scaleType="fitXY"
+    android:src="@drawable/sunnyskyyy"
+    android:id="@+id/image"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/title_textView"
+    android:text="City"
+    android:textSize="25dp"
+    android:padding="16dp"
+    android:textColor="#ffffff"/>
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/image"
+    android:id="@+id/recyclerView"/>
+</RelativeLayout>
